@@ -20,6 +20,15 @@ with the following content (all one one line):<br>
 
 4.Next reinsert the receiver. Now you should have a /dev/ttyUSB0 node:<br>
 >$ ls /dev/ttyUSB0<br>
->/dev/ttyUSB0
+>/dev/ttyUSB0<br>
+
+
 Software
 -
+1.I’m using Python-Ant to read the heart rate. First clone python-ant <br>
+>$ git clone https://github.com/baderj/python-ant.git <br>
+2.Next install python-setuptools and with that python-ant: <br>
+>$ sudo apt-get install -y python-setuptools <br>
+>$ cd python-ant/ <br>
+>$ sudo python setup.py install <br>
+
