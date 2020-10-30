@@ -27,6 +27,7 @@ Software
 -
 1.I’m using Python-Ant to read the heart rate. First clone python-ant <br>
 >$ git clone https://github.com/baderj/python-ant.git <br>
+
 2.Next install python-setuptools and with that python-ant: <br>
 >$ sudo apt-get install -y python-setuptools <br>
 >$ cd python-ant/ <br>
