@@ -18,6 +18,8 @@ with the following content (all one one line):<br>
 
 >SUBSYSTEM=="usb", ATTRS{idVendor}=="0fcf", ATTRS{idProduct}=="1008", RUN+="/sbin/modprobe usbserial vendor=0x0fcf product=0x1008", MODE="0666", OWNER="pi", GROUP="root"<br>
 
-
+4.Next reinsert the receiver. Now you should have a /dev/ttyUSB0 node:<br>
+>$ ls /dev/ttyUSB0<br>
+>/dev/ttyUSB0
 Software
 -
