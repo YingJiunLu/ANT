@@ -13,8 +13,7 @@ Hardware
 3.  To get the usb serial kernel driver to create a node for our  receiver we need to create an udev rule. First unplug the receiver then create the following file:
 
 >$ sudo vi /etc/udev/rules.d/garmin-ant2.rules<br>
-<br>
-with the following content (all one one line):
+with the following content (all one one line):<br>
 >SUBSYSTEM=="usb", ATTRS{idVendor}=="0fcf", ATTRS{idProduct}=="1008", RUN+="/sbin/modprobe usbserial vendor=0x0fcf product=0x1008", MODE="0666", OWNER="pi", GROUP="root"<br>
 
 
