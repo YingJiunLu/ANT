@@ -33,3 +33,6 @@ Software
 >$ cd python-ant/ <br>
 >$ sudo python setup.py install <br>
 
+3.Demo <br>
+>$ python garmin_ant_demo.py
+
